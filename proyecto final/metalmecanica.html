@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller de Metalmecánica – UPTC Duitama</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="acordeones.css">
+
+  <style>
+    /* Dos imágenes una al lado de la otra */
+    .imagen.doble {
+      max-width: 640px;
+    }
+
+    .imagen.doble .contenedor-imagen {
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 8px;
+    }
+
+    .imagen.doble .contenedor-imagen img {
+      flex: 1 1 0;
+      min-width: 0;
+      width: 50% !important;
+      height: auto;
+    }
+
+    /* En celular se apilan */
+    @media (max-width: 480px) {
+      .imagen.doble .contenedor-imagen {
+        flex-direction: column !important;
+      }
+      .imagen.doble .contenedor-imagen img {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div class="div_ppal">
+
+  <p class="encabezado">
+    <span class="caja_logo">
+      <img src="lictec.png" alt="Logo de la Licenciatura en Tecnología">
+    </span>
+    LICENCIATURA EN TECNOLOGÍA
+  </p>
+
+      <section id="metalmecanica">
+      <h2>2. Taller de Metalmecánica</h2>
+
+     
+      <figure class="imagen doble">
+        <div class="contenedor-imagen">
+          <img src="img/Entrada%20Taller%201.jpeg" alt="Entrada del Taller de Metalmecánica">
+          <img src="img/placa%20taller.jpeg" alt="Placa del Taller de Metalmecánica">
+        </div>
+      </figure>
+
+
+      <details class="acordeon"style="background-color:#F5C827">
+        <summary><h3>¿Qué es un taller de Metalmecánica en la UPTC?</h3></summary>
+         <div style="text-align: center;">
+      <img src="img/Metalmecanica.jpeg" width="300" height="200" alt="Laboratorio Metalmecanica">
+      </div>
+        <p>Un taller de Metalmecánica de la Universidad Pedagógica y Tecnológica de Colombia (UPTC) es un espacio de formación práctica donde los estudiantes aprenden a trabajar, transformar y dar forma a diferentes materiales metálicos, utilizando máquinas, herramientas e instrumentos de medición.</p>
+        <p>La finalidad es que los estudiantes no solamente conozcan las máquinas desde la teoría, sino que también comprendan cómo funcionan, para qué sirven y cómo se pueden utilizar en procesos de fabricación.</p>
+      </details>
+
+      <details class="acordeon"style="background-color:#F5C827">
+        <summary><h3>En el taller se aprende a:</h3></summary>
+        <ul>
+          <li>Reconocer las diferentes máquinas y sus funciones.</li>
+          <li>Identificar los materiales y sus propiedades.</li>
+          <li>Medir y verificar las dimensiones de las piezas.</li>
+          <li>Realizar operaciones de mecanizado.</li>
+          <li>Interpretar planos y medidas.</li>
+          <li>Comprender los procesos de fabricación de objetos y componentes.</li>
+        </ul>
+      </details>
+
+
+      <details class="acordeon"style="background-color:#F5C827">
+        <summary><h3>Máquinas que se utilizan en el taller</h3></summary>
+        <p>Estas son algunas de las máquinas que se utilizan en el taller:</p>
+        <details class="acordeon">
+          <summary><h3>Taladro de árbol</h3></summary>
+          <div style="text-align: center;">
+      <img src="img/Taladro de arbol.jpeg" width="300" height="200" alt="Laboratorio Metalmecanica">
+      </div>
+
+          <p>El taladro de árbol es una máquina utilizada para realizar perforaciones en diferentes materiales, especialmente metales. Su funcionamiento consiste en hacer girar una broca que desciende sobre la pieza para producir un agujero.</p>
+          <p><strong>¿Qué se puede hacer con el taladro de árbol?</strong></p>
+          <ul>
+            <li><strong>Taladrado:</strong> realizar agujeros en piezas metálicas.</li>
+            <li><strong>Perforaciones de diferentes diámetros:</strong> cambiar la broca para obtener agujeros de distintos tamaños.</li>
+            <li><strong>Avellanado:</strong> preparar la entrada de un agujero para alojar la cabeza de determinados tornillos.</li>
+            <li><strong>Escariado:</strong> mejorar la precisión y el acabado de un agujero previamente realizado.</li>
+          </ul>
+        </details>
+
+      
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Torno</h3></summary>
+       <div style="text-align: center;">
+      <img src="img/Torno.jpeg" width="300" height="200" alt="Laboratorio Metalmecanica">
+      </div>
+
+          <p>El torno es una máquina herramienta que permite dar forma a piezas metálicas mediante el movimiento giratorio de la pieza de trabajo y una herramienta de corte que retira material.</p>
+          <p>Se utiliza principalmente para fabricar piezas cilíndricas y de revolución.</p>
+          <p><strong>¿Qué se puede hacer con el torno?</strong></p>
+          <ul>
+            <li><strong>Cilindrado:</strong> reducir el diámetro de una pieza para dejarla uniforme.</li>
+            <li><strong>Refrentado:</strong> trabajar la cara frontal de una pieza para dejarla plana.</li>
+            <li><strong>Taladrado:</strong> realizar agujeros en el centro de una pieza.</li>
+            <li><strong>Roscado:</strong> formar roscas para permitir la unión con tornillos o tuercas.</li>
+            <li><strong>Tronzado:</strong> separar una parte de la pieza mediante una herramienta de corte.</li>
+          </ul>
+        </details>
+
+        
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Limadora</h3></summary>
+        <div style="text-align: center;">
+      <img src="img/Limadora.jpeg" width="300" height="200" alt="Laboratorio Fisica">
+      </div>
+
+          <p>La limadora es una máquina herramienta que se utiliza para trabajar superficies metálicas, principalmente planas. Su funcionamiento se basa en un movimiento de avance y retroceso de una herramienta de corte que va retirando pequeñas cantidades de material.</p>
+          <p><strong>¿Qué se puede hacer con la limadora?</strong></p>
+          <ul>
+            <li><strong>Limado de superficies planas:</strong> dejar una cara metálica uniforme.</li>
+            <li><strong>Elaboración de ranuras:</strong> formar canales sobre una superficie.</li>
+            <li><strong>Realización de escalones:</strong> obtener diferentes niveles o alturas en una pieza.</li>
+            <li><strong>Mecanizado de superficies inclinadas:</strong> trabajar caras con determinados ángulos.</li>
+          </ul>
+        </details>
+      </details>
+
+    </section>
+
+    <div class="anterior-siguiente">
+      <a href="fisica.html">&larr; 1. Laboratorio de Física</a>
+      <a href="metrologia.html">3. Laboratorio Instalaciones y Metrología &rarr;</a>
+    </div>
+
+    <p class="volver"><a href="index.html">&larr; Volver al menú principal</a></p>
+  </main>
+
+
+</div>
+</body>
+</html>

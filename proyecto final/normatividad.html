@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Normatividad de Ingreso y Permanencia – UPTC Duitama</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="acordeones.css">
+
+  <style>
+    /* Dos imágenes una al lado de la otra */
+    .imagen.doble {
+      max-width: 640px;
+    }
+
+    .imagen.doble .contenedor-imagen {
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 8px;
+    }
+
+    .imagen.doble .contenedor-imagen img {
+      flex: 1 1 0;
+      min-width: 0;
+      width: 50% !important;
+      height: auto;
+    }
+
+    /* En celular se apilan */
+    @media (max-width: 480px) {
+      .imagen.doble .contenedor-imagen {
+        flex-direction: column !important;
+      }
+      .imagen.doble .contenedor-imagen img {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div class="div_ppal">
+
+
+  <p class="encabezado">
+    <span class="caja_logo">
+      <img src="lictec.png" alt="Logo de la Licenciatura en Tecnología">
+    </span>
+    LICENCIATURA EN TECNOLOGÍA
+  </p>
+
+      <section id="normatividad">
+      <h2 >Normatividad de Ingreso y Permanencia</h2>
+     <hr style ="width:500px; height:3px;background-color:blue">
+
+
+      <figure class="imagen doble">
+        <div class="contenedor-imagen">
+          <img src="img/Normaatividad.jpeg" alt="Normatividad del taller">
+          <img src="img/Salon%20de%20Herramientas%20y%20materiales%20en%20general.jpeg" alt="Salón de herramientas y materiales en general">
+        </div>
+      </figure>
+  
+      <article class="regla ingreso">
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Para ingresar</h3></summary>
+          <ul>
+            <li>Presentar el carné estudiantil vigente.</li>
+            <li>Estar inscrito en la práctica o contar con autorización del docente o del encargado.</li>
+            <li>Llegar puntual dentro del horario asignado; sin docente no se ingresa.</li>
+            <li>Dejar bolsos y objetos personales en el lugar indicado.</li>
+          </ul>
+        </details>
+      </article>
+
+      <article class="regla epp">
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Elementos de protección</h3></summary>
+          <ul>
+            <li>Overol o bata y calzado cerrado de seguridad.</li>
+            <li>Gafas de protección y guantes según el taller.</li>
+            <li>Protección auditiva y careta en soldadura, torno y fresadora.</li>
+            <li>Cabello recogido; sin anillos, cadenas ni ropa suelta.</li>
+          </ul>
+        </details>
+      </article>
+
+      <article class="regla durante">
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Durante la práctica</h3></summary>
+          <ul>
+            <li>Seguir las instrucciones del docente y las guías de trabajo.</li>
+            <li>Usar cada máquina solo después de recibir la inducción.</li>
+            <li>Reportar de inmediato cualquier daño, accidente o falla.</li>
+            <li>Mantener el puesto limpio y devolver las herramientas.</li>
+          </ul>
+        </details>
+      </article>
+
+      <article class="regla prohibido">
+        <details class="acordeon"style="background-color:#F5C827">
+          <summary><h3>Prohibido</h3></summary>
+          <ul>
+            <li>Ingresar con comida, bebidas o bajo efectos de alcohol o sustancias.</li>
+            <li>Usar celular o auriculares mientras se opera una máquina.</li>
+            <li>Operar equipos sin autorización o trabajar solo.</li>
+            <li>Sacar herramientas o materiales del taller.</li>
+          </ul>
+        </details>
+      </article>
+    </section>
+
+    <div class="anterior-siguiente">
+      <span></span>
+      <a href="fisica.html">1. Laboratorio de Física &rarr;</a>
+    </div>
+
+    <p class="volver"><a href="index.html">&larr; Volver al menú principal</a></p>
+  </main>
+
+
+</div>
+</body>
+</html>

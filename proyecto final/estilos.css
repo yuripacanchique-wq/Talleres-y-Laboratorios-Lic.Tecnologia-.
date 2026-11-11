@@ -1,0 +1,414 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: #F4F5F7;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+
+.div_ppal {
+    width: 55%;
+    margin: 20px auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border-top: 8px solid #D6A52B;
+    border-bottom: 8px solid #D6A52B;
+}
+
+.caja_logo {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.caja_logo img {
+    width: 90px;
+    display: block;
+}
+.encabezado {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.encabezado img {
+    width: 65px;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+.banner_principal {
+    width: 93%;
+    height:auto;
+    display:inline-block;
+    border-radius:10px;
+
+}
+
+
+
+
+
+
+.lema {
+    background-color: #30335B;
+    color: #D6A52B;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.institucion {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+.p_imag{
+     text-align:center;
+}
+
+
+.mensaje_inicio {
+    text-align: center;
+    color: #30335B;
+    background-color: #F5EEDF;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 13px;
+}
+
+
+
+h2 {
+    font-size: 28px;
+    color: #30335B;
+    text-align: center;
+    margin: 15px;
+}
+
+.presentacion {
+    font-size: 18px;
+    color: #252525;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #D6A52B;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.tarjetas {
+    width: 95%;
+    margin: 20px auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+
+
+.tarjetas td {
+    background-color: #F5EEDF;
+    padding: 15px;
+    border: none;
+    border-top: 5px solid #D6A52B;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+
+.f1c1 {
+    background-color: #F5EEDF;
+}
+
+.f1c2 {
+    background-color: #EDF0F5;
+}
+
+.f2c1 {
+    background-color: #EDF0F5;
+}
+
+.f2c2 {
+    background-color: #F5EEDF;
+}
+
+.f3c1 {
+    background-color: #F5EEDF;
+}
+
+.f3c2 {
+    background-color: #EDF0F5;
+}
+
+.tarjetas h3 {
+    font-size: 20px;
+    color: #171717;
+    margin: 0 0 5px 0;
+}
+
+.tarjetas p {
+    font-size: 16px;
+    color: #252525;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.tarjetas a {
+    font-size: 16px;
+    color: #30335B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pie {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+    padding: 15px;
+    margin: 0;
+}
+
+
+.titulo_inicio {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 10px 5px 10px;
+    margin: 0;
+}
+
+.presentacion {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.subpresentacion {
+    background-color: #F5EEDF;
+    color: #252525;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px 15px 10px;
+    margin: 0;
+}
+
+
+.acordeon {
+  border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
+}
+
+.acordeon summary,
+.regla summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  list-style-position: inside;
+}
+
+.acordeon summary h3,
+.regla summary h3 {
+  display: inline;
+  font-size: 1.05rem;
+}
+
+.acordeon[open] summary,
+.regla details[open] summary {
+  border-bottom: 1px solid #c9d3de;
+}
+
+.acordeon p,
+.regla ul {
+  padding: 12px 16px;
+}
+
+.regla ul {
+  padding-left: 36px;
+}
+
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Botón volver al menú */
+.volver {
+  margin: 16px 0;
+}
+
+.volver a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #12355b;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #12355b;
+}
+
+.volver a:hover,
+.volver a:focus {
+  background: #12355b;
+  color: #fff;
+}
+
+
+
+.acordeon p {
+  padding: 8px 16px;
+}
+
+.acordeon ul,
+.acordeon ol {
+  padding: 4px 16px 12px 40px;
+}
+
+.acordeon li {
+  margin-bottom: 6px;
+}
+
+
+.centrado,
+header h1,
+.p-cabezote,
+footer p {
+  text-align: center;
+}
+
+footer p {
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+
+hr.linea-azul {
+  width: 500px;
+  max-width: 95%;
+  height: 3px;
+  background-color: blue;
+}
+
+
+.acordeon .acordeon {
+  margin: 8px 16px 12px;
+}
+
+.acordeon .acordeon summary h3 {
+  font-size: 1rem;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 24px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 22px;
+  background: #12355b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  border-bottom: 4px solid #ffb703;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background: #ffb703;
+  color: #12355b;
+  transform: translateY(-3px);
+}
+
+
+.imagen {
+  margin: 16px auto 24px;
+  text-align: center;
+}
+
+.imagen img,
+.centrado img,
+.foto-acordeon {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 8px 10px 12px #D6A52B;
+  border-radius: 20px;
+}
+
+.imagen img,
+.centrado img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.foto-acordeon {
+  display: block;
+  margin: 12px auto;
+}
+
+
+.imagen.doble .contenedor-imagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.anterior-siguiente {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 24px 0 8px;
+}
+
+.anterior-siguiente a {
+  text-decoration: none;
+  color: #12355b;
+  font-weight: bold;
+}
+
+.anterior-siguiente a:hover,
+.anterior-siguiente a:focus {
+  text-decoration: underline;
+}

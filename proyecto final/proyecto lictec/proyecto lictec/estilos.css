@@ -1,0 +1,226 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: #F4F5F7;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+
+.div_ppal {
+    width: 55%;
+    margin: 20px auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border-top: 8px solid #D6A52B;
+    border-bottom: 8px solid #D6A52B;
+}
+
+.caja_logo {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.caja_logo img {
+    width: 90px;
+    display: block;
+}
+.encabezado {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.encabezado img {
+    width: 65px;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+.banner_principal {
+    width: 93%;
+    height:auto;
+    display:inline-block;
+    border-radius:10px;
+
+}
+
+
+
+
+
+
+.lema {
+    background-color: #30335B;
+    color: #D6A52B;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.institucion {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+.p_imag{
+     text-align:center;
+}
+
+
+.mensaje_inicio {
+    text-align: center;
+    color: #30335B;
+    background-color: #F5EEDF;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 13px;
+}
+
+
+
+h2 {
+    font-size: 28px;
+    color: #30335B;
+    text-align: center;
+    margin: 15px;
+}
+
+.presentacion {
+    font-size: 18px;
+    color: #252525;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #D6A52B;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.tarjetas {
+    width: 95%;
+    margin: 20px auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+
+
+.tarjetas td {
+    background-color: #F5EEDF;
+    padding: 15px;
+    border: none;
+    border-top: 5px solid #D6A52B;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+
+.f1c1 {
+    background-color: #F5EEDF;
+}
+
+.f1c2 {
+    background-color: #EDF0F5;
+}
+
+.f2c1 {
+    background-color: #EDF0F5;
+}
+
+.f2c2 {
+    background-color: #F5EEDF;
+}
+
+.f3c1 {
+    background-color: #F5EEDF;
+}
+
+.f3c2 {
+    background-color: #EDF0F5;
+}
+
+.tarjetas h3 {
+    font-size: 20px;
+    color: #171717;
+    margin: 0 0 5px 0;
+}
+
+.tarjetas p {
+    font-size: 16px;
+    color: #252525;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.tarjetas a {
+    font-size: 16px;
+    color: #30335B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pie {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+    padding: 15px;
+    margin: 0;
+}
+
+
+.titulo_inicio {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 10px 5px 10px;
+    margin: 0;
+}
+
+.presentacion {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.subpresentacion {
+    background-color: #F5EEDF;
+    color: #252525;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px 15px 10px;
+    margin: 0;
+}
+
